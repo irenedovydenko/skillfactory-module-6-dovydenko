@@ -1,0 +1,30 @@
+h1 {
+  margin-left: 15px;
+}
+
+.container {  
+    display: grid;  
+    grid-template-columns: repeat(6, 1fr);  
+    grid-template-rows: repeat(6, 70px);  
+    grid-gap: 2px;
+    margin-left: 0px;
+}
+
+.game-field {
+  background-color: orange;
+}
+
+.target {
+  background-color: green;
+  color: white;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.miss {
+  background-color: red;
+}
+
+.row {
+	margin-left: 15px;
+}
